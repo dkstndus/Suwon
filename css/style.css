@@ -429,6 +429,7 @@ section > .inner{
   color: #555;
   font-weight: 600;
   margin-top: 10px;
+  cursor: pointer;
 }
 
 .bottom_notice .main_banner .btn img{
