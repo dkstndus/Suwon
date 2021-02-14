@@ -457,6 +457,7 @@ section > .inner{
 
 .bottom_notice .main_banner.main_banner_popup .close_btn img{
   float: right;
+  cursor: pointer;
 }
 
 .bottom_notice .main_banner.main_banner_popup ul{
