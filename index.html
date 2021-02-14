@@ -1,0 +1,960 @@
+ <!DOCTYPE html>
+ <html lang="kr">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+     <title>수원문화재단</title>
+     <link rel="stylesheet" href="css/initial.css">
+     <link rel="stylesheet" href="css/style.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script type="text/javascript" src="js/common.js"></script>
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+     <link rel="stylesheet" href="css/swiper.css">
+     <!--[if lt IE 9]>
+       <script src = "http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+     <![endif]-->
+ </head>
+ <body>
+  <div id="wrap">
+    <header id="header">
+      <div class="top_hd">
+        <div class="inner">
+          <div class="other_suwon">
+            <ul class="left_list">
+              <li><a href="#">수원SK아트리움</a></li>
+              <li><a href="#">수원문화지도</a></li>
+            </ul>
+          </div>
+          <div class="all_menu">
+            <ul class="right_list">
+              <li><a href="#">전체메뉴<img src="images/header/header_menu.gif" alt=""></a></li>
+              <li>
+                <a href="#">LANGUAGE<img src="images/header/header_language_bg.gif" alt=""></a>
+                <ul class="drop_list bg">
+                  <li><a href="#">English</a></li>
+                  <li><a href="#">中國語</a></li>
+                  <li><a href="#">日本語</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">SNS<img src="images/header/header_sns_bg.gif" alt=""></a>
+                <ul class="drop_list sns">
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon1.gif" alt="">facebook</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon2.gif" alt="">twiter</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon3.gif" alt="">naver blog</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon4.gif" alt="">blog</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon5.gif" alt="">ameba</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon6.gif" alt="">weibo</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon7.gif" alt="">swcf_offical</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon8.gif" alt="">youtube</a></li>
+                  <li><a href="#"><img src="images/header/sns/header_sns_icon7.gif" alt="">suwon hwaseong fortrees</a></li>
+                </ul>
+              </li>
+              <li>
+                <input type="text" placeholder="검색어를 입력하세요"><img src="images/header/header_search_icon.gif" alt="">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header_nav">
+        <div class="inner">
+          <div id="logo"><img src="images/header/logo.gif" alt=""></div>
+          <ul class="main_nav">
+            <li><a href="#">수원화성관광</a></li>
+            <li><a href="#">축제 &middot; 행사 &middot; 교육</a></li>
+            <li><a href="#">문화사업</a></li>
+            <li><a href="#">문화시설</a></li>
+            <li><a href="#">열린공간</a></li>
+            <li><a href="#">재단소개</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header_drop">
+        <ul class="sub_menu bg01">
+          <div class="inner">
+            <li><a href="#">관람안내</a></li>
+            <li><a href="#">문화관광해설</a></li>
+            <li><a href="#">수원화성 소개</a></li>
+            <li><a href="#">화성행궁 소개</a></li>
+            <li><a href="#">화령전 소개</a></li>
+            <li><a href="#">화성행궁 야간개장</a></li>
+            <li><a href="#">수원화성 공연 &middot; 체험</a></li>
+            <li><a href="#">수원호스텔</a></li>
+            <li><a href="#">행궁동 왕의 골목여행</a></li>
+            <li><a href="#">문턱 없는 가이드북</a></li>
+            <li><a href="#">주변명소안내</a></li>
+            <li><a href="#">여행꼭지점카페</a></li>
+            <li><a href="#">TV 속 수원화성</a></li>
+            <li><a href="#">수원시티투어</a></li>
+            <li><a href="#">수원음식점정   </a></li>
+          </div>
+        </ul>
+        <ul class="sub_menu bg02">
+          <div class="inner">
+            <li><a href="#">수원화성문화제</a></li>
+            <li><a href="#">정조대왕능행차</a></li>
+            <li><a href="#">수원문화재야행</a></li>
+            <li><a href="#">수원연극축제</a></li>
+            <li><a href="#">수원재즈페스티벌</a></li>
+            <li><a href="#">행사정보</a></li>
+            <li><a href="#">교육정보</a></li>
+          </div>
+        </ul>
+        <ul class="sub_menu bg03">
+          <div class="inner">
+            <li><a href="#">문화사업 안내</a></li>
+            <li><a href="#">지원사업 안내</a></li>
+            <li><a href="#">문화도시 수원</a></li>
+            <li><a href="#">문화기부 ssac</a></li>
+            <li><a href="#">수원문화지도</a></li>
+          </div>
+        </ul>
+        <ul class="sub_menu bg04">
+          <div class="inner">
+            <li><a href="#">수원SK아트리움</a></li>
+            <li><a href="#">수원제1야외음악당</a></li>
+            <li><a href="#">수원제2야외음악당</a></li>
+            <li><a href="#">행궁길갤러리</a></li>
+            <li><a href="#">무형문화재전수회관</a></li>
+            <li><a href="#">수원전통문화관</a></li>
+            <li><a href="#">화서사랑채</a></li>
+            <li><a href="#">한옥기술전시관</a></li>
+            <li><a href="#">슬기샘도서관</a></li>
+            <li><a href="#">지혜샘도서관</a></li>
+            <li><a href="#">바른샘도서관</a></li>
+            <li><a href="#">실험목장 AGIT</a></li>
+            <li><a href="#">시설물 대관 안내</a></li>
+          </div>
+        </ul>
+        <ul class="sub_menu bg05">
+          <div class="inner">
+            <li><a href="#">재단소식</a></li>
+            <li><a href="#">프레스룸</a></li>
+            <li><a href="#">자료실</a></li>
+            <li><a href="#">통합 온라인접수</a></li>
+            <li><a href="#">열린의견</a></li>
+            <li><a href="#">공공데이터개방</a></li>
+            <li><a href="#">경영공시</a></li>
+            <li><a href="#">부패 &middot; 공익신고 센터</a></li>
+            <li><a href="#">반부패 청렴활동</a></li>
+            <li><a href="#">인인화락웹진</a></li>
+          </div>
+        </ul>
+        <ul class="sub_menu bg06">
+          <div class="inner">
+            <li><a href="#">인사말</a></li>
+            <li><a href="#">비전 및 경영전략</a></li>
+            <li><a href="#">연혁 및 설립배경</a></li>
+            <li><a href="#">조직 및 담당업무</a></li>
+            <li><a href="#">CI소개</a></li>
+            <li><a href="#">재단 오시는 길</a></li>
+          </div>
+        </ul>
+      </div>
+    </header>
+    <div id="container">
+      <section id="section01">
+        <div class="inner">
+          <div class="top_notice">
+            <div class="big_swiper">
+              <!-- Swiper -->
+               <div class="swiper-container main">
+                 <div class="swiper-wrapper">
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1582598952_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1597718402_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1603673999_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1603784605_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1603937054_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1608616997_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1609721774_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1611106528_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1611291939_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1611297666_0.jpg" alt=""></div>
+                   <div class="swiper-slide"><img src="images/slider_banner1/imgFile_1611305917_0.jpg" alt=""></div>
+                 </div>
+                 <!-- Add Pagination -->
+                 <div class="swiper-pagination"></div>
+                 <!-- Add Arrows -->
+                 <div class="swiper-button-next"><img src="images/" alt=""></div>
+                 <div class="swiper-button-prev"></div>
+               </div>
+            </div>
+            <div class="sec_notice">
+              <div class="notice_title">
+                <div class="tit">재단 공지</div>
+                <img src="images/btn/btn_more.png" alt="">
+              </div>
+              <ul>
+                <li>
+                  <a href="#" class="more_text">수원전통문화관 특별기획전 <도심 속 한옥> 전시 안내</a>
+                  <span class="date">2021.02.01</span>
+                </li>
+                <li>
+                  <a href="#" class="more_text">2021년 설 연휴 중 행사 및 운영 안내(설 당일 수원화성 화성행궁 무료개방)</a>
+                  <span class="date">2021.01.28</span>
+                </li>
+                <li>
+                  <a href="#" class="more_text">2020년 기부금 모금액 및 활용실적</a>
+                  <span class="date">2021.01.22</span>
+                </li>
+                <li>
+                  <a href="#" class="more_text">슬기샘어린이도서관 임시휴관 안내(3/1~6/30)</a>
+                  <span class="date">2021.01.20</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="bottom_notice">
+            <div class="main_banner">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="images/all_banner/main_all_bann8.gif" alt="">
+                    <span>문화관광<br>해설안내</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/all_banner/main_all_bann10.gif" alt="">
+                    <span>행사정보</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/all_banner/main_all_bann11.gif" alt="">
+                    <span>교육정보</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/all_banner/main_all_bann14.gif" alt="">
+                    <span>열린의견</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/all_banner/main_all_bann17.gif" alt="">
+                    <span>부패 &middot; 공익<br>신고센터</span>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <img src="images/all_banner/main_all_bann18.gif" alt="">
+                    <span>반부패<br>청렴활동</span>
+                  </a>
+                </li>
+              </ul>
+              <div class="btn">
+                  <img src="images/all_banner/main_bann_btn.gif" alt="">
+                  <span>바로가기 전체 표시</span>
+              </div>
+            </div>
+            <div class="main_banner main_banner_popup">
+              <div class="close_btn">
+                <img src="images/all_banner/popup/btn.jpg" alt="">
+              </div>
+              <ul>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann8.gif" alt=""><span>문화관광<br>해설안내</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann10.gif" alt=""><span>행사정보</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann11.gif" alt=""><span>교육정보</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann14.gif" alt=""><span>열린의견</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann13.gif" alt=""><span>부패공인<br>신고센터</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann18.gif" alt=""><span>반부패<br>청렴활동</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann1.gif" alt=""><span>수원화성<br>시설물소개</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann2.gif" alt=""><span>화성행궁<br>시설물소개</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann4.gif" alt=""><span>관람코스<br>추천</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann6.gif" alt=""><span>수원화성<br>관람안내도</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann7.gif" alt=""><span>화성행궁<br>관람안내도</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann3.gif" alt=""><span>관람시간<br>/요금표</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann5.gif" alt=""><span>주차안내</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann9.gif" alt=""><span>문화사업<br>안내</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann15.gif" alt=""><span>재단<br>오시는 길</span></a></li>
+                  <li><a href="#"><img src="images/all_banner/main_all_bann16.gif" alt=""><span>조직및<br>담당업무</span></a></li>
+                </ul>
+            </div>
+            <div class="sec_banner">
+              <div class="banner ba01">
+                <div class="banner_tit">수원화성</div>
+                <a href="#">소개</a>
+                <a href="#">시설물 소개</a>
+                <a href="#">사이버투어</a>
+              </div>
+              <div class="banner ba02">
+                <div class="banner_tit">화성행궁</div>
+                <a href="#">소개</a>
+                <a href="#">시설물 소개</a>
+                <a href="#">사이버투어</a>
+              </div>
+            </div>
+            <div class="small_swiper">
+              <div class="swiper-container small">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="images/slider_banner2/img01.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1536200576_0.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1551077094_0.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1551077104_0.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1551077110_0.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1611209212_0.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1611297081_0.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1611306100_0.jpg" alt=""></div>
+                  <div class="swiper-slide"><img src="images/slider_banner2/imgFile_1611554281_0.jpg" alt=""></div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section02">
+        <div class="inner">
+          <div class="top_notice">
+            <div class="sec_notice">
+                <h3 class="tit">오늘의 문화행사</h3>
+                <!-- Swiper -->
+                <div class="swiper_area">
+                  <div class="swiper-container event">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="images/slider_event/listImg_1610339916_0.jpg" alt="">
+                        <div class="event_notice">
+                          <div class="eve_tit">기타</div>
+                          <p>수원시지속가능도시재단,주민제안 통합공고사업 안내</p>
+                          <span>2021-01-04 ~ 2021-2-15</span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/slider_event/listImg_1611206420_0.jpg" alt="">
+                        <div class="event_notice">
+                          <div class="eve_tit">전시</div>
+                          <p>2021년 틈새전시 <신축년반갑소></p>
+                          <span>2021-01-01 ~ 2021-12-31</span>
+                        </div>
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="images/slider_event/listImg_1611208240_0.jpg" alt="">
+                        <div class="event_notice">
+                          <div class="eve_tit">전시</div>
+                          <p>2021년 미미전시 <예술가의 부엌></p>
+                          <span>2021-01-05 ~ 2021-03-15</span>
+                        </div>
+
+                      </div>
+                    </div>
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+
+                  </div>
+                </div>
+                <div class="bottom_banner">
+                  <img src="images/imgFile_1524531679_0.jpg" alt="">
+                </div>
+            </div>
+            <div class="big_swiper">
+              <div class="sec_notice">
+                <div class="notice_title">
+                  <h3 class="tit">상설&middot;기획공연</h3>
+                  <img src="images/btn/btn_more.png" alt="">
+                </div>
+                <ul class="main_first">
+                  <li class="first">
+                    <a href="#">
+                      <img src="images/event/imgFile_1603416204_0.jpg" alt="">
+                      <span>토요상설공연</span>
+                    </a></li>
+                  <li class="second">
+                    <a href="#">
+                      <img src="images/event/filesList_1579073414_0.jpg" alt="">
+                      <span>무예24기 시범공연</span>
+                    </a></li>
+                  </li>
+                </ul>
+              </div>
+              <div class="sec_notice">
+                <div class="notice_title">
+                  <h3 class="tit">상설체험</h3>
+                  <img src="images/btn/btn_more.png" alt="">
+                </div>
+                <ul class="main_mid">
+                  <li class="first">
+                    <a href="#">
+                      <img src="images/event/filesList_1579072344_0.jpg" alt="">
+                      <span>수원화성 성곽길 스탬프 투어</span>
+                    </a></li>
+                  <li class="second">
+                    <a href="#">
+                      <img src="images/event/filesList_1579072770_0.jpg" alt="">
+                      <span>화성행궁 상설체험</span>
+                    </a></li>
+                  </li>
+                </ul>
+              </div>
+              <div class="sec_notice">
+                <div class="notice_title">
+                  <h3 class="tit">테마체험</h3>
+                  <img src="images/btn/btn_more.png" alt="">
+                </div>
+                <ul class="main_last">
+                  <li class="first">
+                    <a href="#">
+                      <img src="images/event/filesList_1596695055_0.jpg" alt="">
+                      <span>세계유산 활용 프로그램</span>
+                    </a></li>
+                  <li class="second">
+                    <a href="#">
+                      <img src="images/event/filesList_1555118823_0.jpg" alt="">
+                      <span>로맨틱한 수원화성</span>
+                    </a></li>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section03">
+        <div class="inner">
+          <div class="top_notice">
+            <div class="sec_notice">
+              <div class="bottom_banner">
+                <img src="images/imgFile_1603416204_0.jpg" alt="">
+              </div>
+              <div class="bottom_banner">
+                <img src="images/imgFile_1578651895_0.jpg" alt="">
+              </div>
+            </div>
+            <div class="big_swiper all_notice">
+              <input type="radio" id="first" name="tab" checked>
+              <input type="radio" id="second" name="tab">
+              <input type="radio" id="third" name="tab">
+              <input type="radio" id="fourth" name="tab">
+              <input type="radio" id="fifth" name="tab">
+              <input type="radio" id="sixth" name="tab">
+              <section class="notice_buttons">
+                <label for="first">전체</label>
+                <label for="second">일반공고</label>
+                <label for="third">지원사업공고</label>
+                <label for="fourth">채용공고</label>
+                <label for="fifth">입찰공고</label>
+                <label for="sixth">보도자료</label>
+              </section>
+              <div class="tab_item">
+                <ul>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원전통문화관 예절교육관 강사 모집 공고</span></a>
+                      <p class="date">2021.02.09</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원전통문화관 전통식생활체험관 보조강사 모집 공고</span></a>
+                      <p class="date">2021.02.09</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원시 공유재산(장안사랑채 A동 101호) 사용&middot;수익 허가 재입찰 공고</span></a>
+                      <p class="date">2021.02.04</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon5.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원전통문화관, 2021년 제1회 특별기획전시 개최</span></a>
+                      <p class="date">2021.02.02</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon6.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원시 <거리로 나온 예술> 참여예술인(단체) 모집 공고</span></a>
+                      <p class="date">2021.02.01</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원시립공연단 2021년 무예24기 공연운영인력 용역 수의견적 제출안내 공고</span></a>
+                      <p class="date">2021.02.01</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab_item">
+                <ul>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon6.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원 <거리로 나온 예술> 참여 예술(단체) 모집 공고</span></a>
+                      <p class="date">2021.02.01</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon6.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원문화재단 정기간행물 원인 화락 발간에 따른 제안서 평가위원 (후보자) 모집 안내</span></a>
+                      <p class="date">2021.01.19</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon6.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원SK아트리움 2021년 제1차 수시대관 공고</span></a>
+                      <p class="date">2021.01.13</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon6.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원문화재단 수원SK아트리움 <공연장상주단체 육성지원사업> 매칭 전문예술단체 선정결과 공1</span></a>
+                      <p class="date">2021.01.12</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon6.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원연극축제 국내참가작 공모 2차 인터뷰 심의 결과 안내</span></a>
+                      <p class="date">2020.12.18</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon6.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 (재)수원문화재단 수원SK아트리움 <공연단상주단체 육성지원사업> 매칭 전문예술단체 모집 공고</span></a>
+                      <p class="date">2020.12.17</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab_item">
+                <ul>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon2.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원문화재단 문화예술 공모지원 사업 안내(온라인 사업설명회 자료 포함)</span></a>
+                      <p class="date">2021.01.20</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon2.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 경기예술활동 지원사업 공고</span></a>
+                      <p class="date">2021.01.20</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon2.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 형형색색 문화예술지원사업 공고</span></a>
+                      <p class="date">2021.01.18</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon2.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 지역문화자원 발굴조망 유망예술가 지원사업 공고</span></a>
+                      <p class="date">2021.01.18</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon2.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 문화예술 창작지원사업 공고</span></a>
+                      <p class="date">2021.01.18</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon2.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원예술인 2차 긴급재난지원금 지급 대상자 발표 공고(신규 지원자)</span></a>
+                      <p class="date">2020.11.03</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab_item">
+                <ul>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원전통문화관 예절교육관 강사 모집 공고</span></a>
+                      <p class="date">2021.02.09</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원전통문화관 전통식생활체험관 보조강사 모집 공고</span></a>
+                      <p class="date">2021.02.09</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원문화재단 직원(2급국장) 공개채용 최종합격자 공고</span></a>
+                      <p class="date">2021.01.25</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원문화재단 직원(전문계약직) 공개채용 최종합격자 공고</span></a>
+                      <p class="date">2021.01.22</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원 푸른지대창작샘터 기간제 근로자 채용 공고</span></a>
+                      <p class="date">2021.01.22</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon3.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원문화재단 직원(2급국장) 공개채용 서류전형 합격자 및 면접시험 시행계획 공고</span></a>
+                      <p class="date">2021.01.20</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab_item">
+                <ul>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원시 공유재산(장안사랑채 A동 101호) 사용&middot;수익 허가 재입찰 공고</span></a>
+                      <p class="date">2021.02.04</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원시립공연단 2021년 무예24기 공연운영인력 용역 수의견적 제출안내 공고</span></a>
+                      <p class="date">2021.02.01</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원문화재단 정기간행물 인인화락 발간 용역 입찰 공고(협상에 의한 계약)</span></a>
+                      <p class="date">2021.01.18</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원시 공유재단(장안사랑채 A동 101호) 입찰 재공고</span></a>
+                      <p class="date">2020.12.24</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 문화시설 사무기기 임차 용역 수의견적 제출 안내 공고</span></a>
+                      <p class="date">2020.12.10</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon7.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">2021년 수원SK아트리움 무대설치철수인력 운영 용역 수의견적 제출 안내 공고</span></a>
+                      <p class="date">2020.12.08</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab_item">
+                <ul>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon5.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원전통문화관, 2021년 제1회 특별기획 전시 개최</span></a>
+                      <p class="date">2021.02.02</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon5.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원SK아트리움 2021년 1차 수시대관 신청 접수</span></a>
+                      <p class="date">2021.01.17</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon5.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">바른샘어린이도서관 어린이 작업실<모야> 운영 개시</span></a>
+                      <p class="date">2021.01.13</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon5.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원시 공공미술 프로젝트 '사람이 있다,미술로 잇다' 수원 곳곳에 전시 개최</span></a>
+                      <p class="date">2021.01.06</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon5.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">QR스캔으로 보는 수원화성&middot;화성행궁 여행가이드 제작</span></a>
+                      <p class="date">2020.12.28</p>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <div class="thumbnail">
+                      <img src="images/mtab_box_icon5.gif" alt="">
+                    </div>
+                    <div class="description">
+                      <a href=""><span class="moretext">수원문화재단 수원SK아트리움, 2021년 공연장 상주단체 모집</span></a>
+                      <p class="date">2020.12.21</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section04">
+        <div class="inner">
+          <h3>문화시설바로가기</h3>
+          <div class="img_wrap">
+            <div class="first">
+              <img src="images/facility/facility_dd_bg1.gif" alt="">
+              <ul>
+                <li><a href="#">수원SK아트리움</a></li>
+                <li><a href="#">제1야외음악당</a></li>
+                <li><a href="#">제2야외음악당</a></li>
+              </ul>
+            </div>
+            <div class="second">
+              <img src="images/facility/facility_dd_bg2.gif" alt="">
+              <ul>
+                <li><a href="#">행궁길갤러리</a></li>
+                <li><a href="#">무형문화재전수회관</a></li>
+              </ul>
+            </div>
+            <div class="thirth">
+              <img src="images/facility/facility_dd_bg3.gif" alt="">
+              <ul>
+                <li><a href="#">수원전통문화관</a></li>
+                <li><a href="#">화서사랑채</a></li>
+                <li><a href="#">한옥기술전시관</a></li>
+              </ul>
+            </div>
+            <div class="fifth">
+              <img src="images/facility/facility_dd_bg4.gif" alt="">
+              <ul>
+                <li><a href="#">슬기샘도서관</a></li>
+                <li><a href="#">지혜샘도서관</a></li>
+                <li><a href="#">바른샘도서관</a></li>
+              </ul>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer id="footer">
+        <div class="footer_top">
+          <div class="inner">
+            <ul>
+              <li><a href="#">개인정보처리방침</a></li>
+              <li><a href="#">영상정보처리기기운영관리방침</a></li>
+              <li><a href="#">이메일주소무단수집거부</a></li>
+              <li><a href="#">오시는길</a></li>
+              <li><a href="#">사이트맵</a></li>
+              <li><a href="#">문화관광해설사</a></li>
+              <li><a href="#">사진으로보는문화</a></li>
+              <li><a href="#">사진 및 영상자료 요청서 다운로드</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <div class="inner">
+            <div class="left_area">
+              <div class="footer_logo">
+                <img src="images/footer/footer_logo.gif" alt="">
+              </div>
+              <div class="add_list">
+                <p>(16261) 경기도 수원시 팔달구 행궁로 11(남창동) 수원문화재단&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;사업자등록번호 135-82-15727</p>
+                <p>대표전화번호&#58; 031-290-3600&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표팩스번호&#58; 031-290-3520&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;대표이메일&#58; swcf_kr&#64;swcf.or.kr</p>
+                <p>COPYRIGHT SUWON CULTURAL FOUNDATION. ALL RIGHTS RESERVED.</p>
+              </div>
+            </div>
+            <div class="right_area">
+              <div class="right_logo">
+                <img src="images/footer/wa.png" alt="">
+              </div>
+              <div class="footer_slider">
+                <!-- Swiper -->
+                 <div class="swiper-container footer">
+                   <div class="swiper-wrapper">
+                     <div class="swiper-slide"><img src="images/footer/slider_banner/imgFile_1471839697_0.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="images/footer/slider_banner/imgFile_1471840013_0.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="images/footer/slider_banner/imgFile_1471841060_0.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="images/footer/slider_banner/imgFile_1471841100_0.jpg" alt=""></div>
+                     <div class="swiper-slide"><img src="images/footer/slider_banner/imgFile_1471841359_0.jpg" alt=""></div>
+                   </div>
+                   <!-- Add Pagination -->
+                   <div class="swiper-pagination"></div>
+                   <!-- Add Arrows -->
+                   <div class="swiper-button-next"><img src="images/" alt=""></div>
+                   <div class="swiper-button-prev"></div>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </footer>
+  </div>
+  <!-- Swiper JS -->
+  <script src="../package/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container.main', {
+      loop: true,// 무한 반복
+      autoplay: { // 자동 플레이
+        delay: 2500, // 기준 ms 2500ms -> 2.5초
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    //console.log(swiper.realIndex)
+
+    var swiper = new Swiper('.swiper-container.small', {
+      loop: true,// 무한 반복
+      autoplay: { // 자동 플레이
+        delay: 2500, // 기준 ms 2500ms -> 2.5초
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    var swiper = new Swiper('.swiper-container.event', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+    var swiper = new Swiper('.swiper-container.footer', {
+      loop: true,// 무한 반복
+      autoplay: { // 자동 플레이
+        delay: 2500, // 기준 ms 2500ms -> 2.5초
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'fraction',
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+
+
+
+  </script>
+ </body>
+ </html>
